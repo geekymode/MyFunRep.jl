@@ -49,6 +49,25 @@ and you are ready to go.
 
 ## Documentation
 
+## Quickstart
+
+Here is a quick demo about solving an interval linear system.
+
+```julia
+using Plots
+
+A = [2..4 -1..1;-1..1 2..4]
+b = [-2..2, -1..1]
+
+x= -2:0.1:2
+
+plot(s,sin.(x), legend=:top)
+plot!(x,cos.(x), label="enclosure")
+```
+
+TBD
+
+
 [![Stable](https://img.shields.io/badge/docs-stable-blue.svg)](https://geekymode.github.io/MyFunRep.jl/stable)
 [![Dev](https://img.shields.io/badge/docs-dev-blue.svg)](https://geekymode.github.io/MyFunRep.jl/dev)
 [![Build Status](https://github.com/geekymode/MyFunRep.jl/actions/workflows/CI.yml/badge.svg?branch=main)](https://github.com/geekymode/MyFunRep.jl/actions/workflows/CI.yml?query=branch%3Amain)
