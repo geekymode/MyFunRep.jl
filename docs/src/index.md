@@ -21,9 +21,9 @@ Documentation for [MyFunRep](https://github.com/geekymode/MyFunRep.jl).
 
 # Some sample Plot experiment
 
-using Plots
+<!-- using Plots
 
-plot(1:100)
+plot(1:100) -->
 
 ```@index
 ```
