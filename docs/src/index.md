@@ -19,6 +19,12 @@ Documentation for [MyFunRep](https://github.com/geekymode/MyFunRep.jl).
 - enclosure of eigenvalues of interval matrices
 - verified computation of eigenvalues and eigenvectors of floating point matrices
 
+# Some sample Plot experiment
+
+using Plots
+
+plot(1:100)
+
 ```@index
 ```
 

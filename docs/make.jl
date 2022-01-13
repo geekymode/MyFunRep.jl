@@ -1,5 +1,8 @@
 using MyFunRep
 using Documenter
+using Plots
+ENV["PLOTS_TEST"] = "true"
+ENV["GKSwstype"] = "100"
 
 DocMeta.setdocmeta!(MyFunRep, :DocTestSetup, :(using MyFunRep); recursive=true)
 
