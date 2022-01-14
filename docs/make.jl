@@ -20,7 +20,7 @@ makedocs(;
     ),
     pages=[
         "Home" => "index.md",
-        "Tutorials" => "tutorials/linear_systems.md",
+        "Tutorials" => "tutorials/eigenvalues.md",
         "Explanations" => "explanations/preconditioning.md",
     ],
 )
