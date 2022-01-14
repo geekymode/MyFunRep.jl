@@ -1,5 +1,6 @@
 using MyFunRep
 using Documenter
+using Plots
 
 ENV["PLOTS_TEST"] = "true"
 ENV["GKSwstype"] = "100"
@@ -15,9 +16,12 @@ makedocs(;
         prettyurls=get(ENV, "CI", "false") == "true",
         canonical="https://geekymode.github.io/MyFunRep.jl",
         assets=String[],
+        collapselevel=1,
     ),
     pages=[
         "Home" => "index.md",
+        "Tutorials" => "tutorials/linear_systems.md",
+        "Explanations" => "explanations/preconditioning.md",
     ],
 )
 
